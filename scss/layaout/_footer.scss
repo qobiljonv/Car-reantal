@@ -1,0 +1,118 @@
+.airport__container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+}
+
+.airport__container {
+  .airport__logo-wrapper {
+    margin-right: auto;
+  }
+
+  .airport__text {
+    width: 100%;
+    max-width: 280px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-right: auto;
+    color: $light-muted-text-color;
+  }
+  .airport__wrapper {
+    margin-left: 7rem;
+    margin-top: 2.4rem;
+  }
+  .airport__wrapper__title {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: $light-secondary-color;
+  }
+
+  .airport__wrapper__link {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: $light-muted-text-color;
+  }
+}
+.footer {
+  .footer__social {
+    margin-right: auto;
+  }
+  .footer__social {
+    .social__title {
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 1.2;
+      color: $light-secondary-color;
+      margin-bottom: 2.2rem;
+    }
+
+    .social__list {
+      display: flex;
+      gap: 1.5rem;
+    }
+  }
+
+  .conditions__buttom {
+    margin-top: auto;
+    padding: 1.6rem;
+    height: 7rem;
+    width: 7rem;
+    border: 1px solid transparent;
+    background-color: $light-primary-color;
+    border-radius: 50%;
+  }
+
+  .conditions__buttom:hover {
+    background-color: $light-hover-color;
+  }
+}
+
+.conditions__container {
+  display: flex;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.conditions__container {
+  .conditions__address {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: $light-secondary-color;
+    margin-right: 14.7rem;
+  }
+
+  .conditions__box-contact {
+    margin-right: 4.9rem;
+  }
+
+  .conditions__box__title {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: $light-secondary-color;
+    margin-bottom: 1.6rem;
+  }
+
+  .conditions__box__link {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: $light-text-color;
+  }
+
+  .conditions__box-hours {
+    margin-right: 5.2rem;
+  }
+
+  .conditions__box__item-text {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+    color: $light-text-color;
+  }
+}
